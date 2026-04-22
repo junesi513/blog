@@ -21,7 +21,7 @@ export function SiteHeader() {
         <div className="brand">
           <NavLink to="/" className="brandLink" aria-label="Home">
             <span className="brandMark" aria-hidden="true" />
-            <span className="brandText">Your Name</span>
+            <span className="brandText">황시준</span>
           </NavLink>
         </div>
         <nav className="nav" aria-label="Primary">
@@ -31,10 +31,15 @@ export function SiteHeader() {
           <LinkItem to="/about" label="About" />
         </nav>
         <div className="headerActions">
-          <a className="btn" href="https://github.com/" target="_blank">
+          <a
+            className="btn"
+            href="https://github.com/junesi513"
+            target="_blank"
+            rel="noreferrer"
+          >
             GitHub
           </a>
-          <a className="btn primary" href="mailto:you@example.com">
+          <a className="btn primary" href="mailto:ghkdtlwns987@naver.com">
             Contact
           </a>
         </div>
